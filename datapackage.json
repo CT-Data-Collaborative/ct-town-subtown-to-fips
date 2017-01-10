@@ -1,0 +1,38 @@
+{
+  "name": "ct-town-subtown-to-fips-xwalk",
+  "title": "CT Town and Subtown to FIPS Crosswalk",
+  "description": "List of Connecticut cities, towns and subtowns with FIPS codes.",
+  "version": "1.0",
+  "license": {
+    "type": "Open Data Commons Public Domain",
+    "url": "http://opendatacommons.org/licenses/pddl/"
+  },
+  "author": {
+    "name": "Sasha Cuerda",
+    "email": "scuerda@ctdata.org",
+    "web": "http://ctdata.org"
+  },
+  "resources": [
+    {
+      "schema": {
+        "fields": [
+          {
+            "name": "Town",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "FIPS",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      },
+      "name": "town_subtown_fips_crosswalk",
+      "title": "Town and Subtown to Fips Crosswalk",
+      "path": "town-subtown-to-fips-xwalk.csv",
+      "format": "CSV",
+      "mediatype": "text/csv"
+    }
+  ]
+}
